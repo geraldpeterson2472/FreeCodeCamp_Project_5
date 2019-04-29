@@ -3,15 +3,54 @@ body{
     /*font-family: 'Roboto', sans-serif;*/
     /*font-family: 'Open Sans', sans-serif;*/
     font-family: 'Cormorant Unicase', serif;
+	
+	/* set margin and padding to 0 for the entire page*/
+	margin: 0; 
+	padding: 0;
 
 
 }
 h1{
-	color: red;
+	color: #52a1a8;
 	font-size: 2.5em;
 	text-align: center;
 }
 
+.intro {
+  top: 0;
+  background-color: #bdbab5;
+  min-height: 55vh;
+  padding-top: 45vh;
+}
+p{
+	color: #52a1a8;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+}
 
+nav ul {
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  background-color: #e0ebe8;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 4%;
+  margin-bottom: 1.5%;
+  margin-top: 2%;
+}
+
+nav ul li a {
+  color: #008080;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #956b23;
+  font-weight: bold;
+}
 
 
